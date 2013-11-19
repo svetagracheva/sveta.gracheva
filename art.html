@@ -21,7 +21,7 @@ scroll kit
 <div class="js_show_scroll published_scroll" id="scroll_GFufOzz">
 <style>
   #strip_76420{height:5100px;position:relative;background-color:rgb(255, 255, 255);background:;overflow:hidden;}
-  #strip_76420 .frame {width:536px;margin:auto;position:relative;}
+  #strip_76420 .frame {width:536px;margin:auto;position:fixed; left: 50%; margin-left: -268px;}
   #el_76420_0{top:79px;left:451px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;font-size:20px;line-height:30px;letter-spacing:0;padding-left:3px;padding-right:3px;color:#505050;text-align:left;z-index:2;width:107px;font-family:"Helvetica";}
   #el_76420_1{color:#505050;font-family:Helvetica;line-height:30px;font-size:20px;top:79px;left:539px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;letter-spacing:0;padding-left:3px;padding-right:3px;text-align:left;z-index:3;width:105px;-webkit-animation-duration:10780ms;-moz-animation-duration:10780ms;-o-animation-duration:10780ms;-ms-animation-duration:10780ms;}
   #el_76420_2{color:#07766c;font-family:Helvetica;line-height:30px;font-size:20px;top:79px;left:627px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;letter-spacing:0;padding-left:3px;padding-right:3px;text-align:left;z-index:4;width:69px;}
@@ -30,6 +30,7 @@ scroll kit
   #el_76420_5{top:29px;left:636px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:7;width:35px;height:35px;}
   #el_76420_6{top:29px;left:684px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:8;width:35px;height:35px;}
   #el_76420_7{top:25px;left:-181px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:9;width:301px;height:35px;}
+
   #el_76420_8{top:125px;left:-181px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:10;width:900px;height:600px;-webkit-animation-duration:10500ms;-moz-animation-duration:10500ms;-o-animation-duration:10500ms;-ms-animation-duration:10500ms;}
   #el_76420_9{top:725px;left:-181px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:11;width:900px;height:600px;-webkit-animation-duration:10500ms;-moz-animation-duration:10500ms;-o-animation-duration:10500ms;-ms-animation-duration:10500ms;}
   #el_76420_10{top:1325px;left:-181px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:12;width:900px;height:600px;-webkit-animation-duration:10500ms;-moz-animation-duration:10500ms;-o-animation-duration:10500ms;-ms-animation-duration:10500ms;}
@@ -37,6 +38,33 @@ scroll kit
   #el_76420_12{top:2685px;left:-181px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:12;width:900px;height:600px;-webkit-animation-duration:10500ms;-moz-animation-duration:10500ms;-o-animation-duration:10500ms;-ms-animation-duration:10500ms;}
   #el_76420_13{top:3259px;left:-181px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:13;width:900px;height:900px;-webkit-animation-duration:10500ms;-moz-animation-duration:10500ms;-o-animation-duration:10500ms;-ms-animation-duration:10500ms;}
   #el_76420_14{top:4151px;left:-181px;position:absolute;outline:none;word-wrap:break-word;overflow:hidden;z-index:14;width:900px;height:998px;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);}
+
+
+  #images { 
+    position: absolute; 
+    top: 130px;
+    width: 5420px;
+    height: 998px;
+    overflow: auto;
+  }
+  #images img {
+    vertical-align: top;
+
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #scroll_GFufOzz {
+    max-height: 200px;
+  }
+
+  body {
+    max-height: 200px !important;
+  }
+
 </style>
 <div id="strip_76420">
 <div class="frame"><a href="./photos.html"><div id="el_76420_0">
@@ -46,14 +74,17 @@ PHOTOS</div></a><a href="./design.html"><div class="" id="el_76420_1">
 &nbsp;CV</div></a><a href="http://instagram.com/careenin" target="_blank"><img src="./art_files/34582" class="" id="el_76420_4">
 </a><a href="https://www.facebook.com/pages/Sveta-Gracheva/141713849354708" target="_blank"><img src="./art_files/34583" class="" id="el_76420_5">
 </a><a href="http://www.flickr.com/photos/bee_xlaura/" target="_blank"><img src="./art_files/34584" class="" id="el_76420_6">
-</a><img src="./art_files/34585" class="" id="el_76420_7">
-<img src="./art_files/34902" class="fade_in" id="el_76420_8">
-<img src="./art_files/34904" class="fade_in" id="el_76420_9">
-<img src="./art_files/34905" class="fade_in" id="el_76420_10">
-<img src="./art_files/34906" class="fade_in" id="el_76420_11">
-<img src="./art_files/34907" class="fade_in" id="el_76420_12">
-<img src="./art_files/34908" class="fade_in" id="el_76420_13">
-<img src="./art_files/34909" class="" id="el_76420_14">
+</a>
+  <img src="./art_files/34585" class="" id="el_76420_7">
+  <img src="./art_files/34909" class="" id="el_76420_14">
 </div></div>
+<div id="images">
+  <img src="./art_files/34902" class="fade_in" id="el_76420_8">
+  <img src="./art_files/34904" class="fade_in" id="el_76420_9">
+  <img src="./art_files/34905" class="fade_in" id="el_76420_10">
+  <img src="./art_files/34906" class="fade_in" id="el_76420_11">
+  <img src="./art_files/34907" class="fade_in" id="el_76420_12">
+  <img src="./art_files/34908" class="fade_in" id="el_76420_13">
 </div>
+
 </body></html>
